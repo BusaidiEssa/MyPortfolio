@@ -10,6 +10,7 @@ import { motion } from "framer-motion";
 import ComponentTitle from "../../Components/ComponentTitle/ComponentTitle";
 import Circle from '../../Components/Circle/Circle'
 import MainContainer from "../../Components/MainContainer/MainContainer";
+import Netflixclone from "../../assets/Netflixclone.png"
 
 function Projects() {
   return (
@@ -25,19 +26,20 @@ function Projects() {
             transition={{ delay: ".5", duration: ".3", stiffness: "100" }}
             className={styles.projects_component}
           >
-            <ProjectCard previewLink={"https://thereactquizz.netlify.app/"}
-            githubLink={"https://github.com/shivam1611/react-quiz"}
-            projectName={"React Quiz App"}
-            projectDetails={"React Quiz App: Answer React questions, get results. Fun way to test React knowledge. Simple, interactive, and informative!"}
-            demoImage={quizIMG}
+            <ProjectCard previewLink={"https://netflixclonebe.netlify.app/"}
+            githubLink={"https://github.com/BusaidiEssa/NetflixClone"}
+            projectName={"Netflix clone using React"}
+            projectDetails={"Building a Netflix clone using TMDB API and firebase for user authentication and registration"}
+            demoImage={Netflixclone}
             skill_img={[
               "https://cdn.worldvectorlogo.com/logos/react-2.svg",
               "https://cdn.worldvectorlogo.com/logos/html-1.svg",
               "https://cdn.worldvectorlogo.com/logos/css-3.svg",
               "https://cdn.worldvectorlogo.com/logos/javascript-1.svg",
+              "https://cdn.worldvectorlogo.com/logos/firebase-1.svg",
             ]}/>
 
-            <ProjectCard
+            {/* <ProjectCard
               previewLink={"https://teamtrackers.netlify.app/"}
               githubLink={"https://github.com/shivam1611/Team-Trackr-app"}
               projectName={"Team Trackr App"}
@@ -97,7 +99,7 @@ function Projects() {
               "https://cdn.worldvectorlogo.com/logos/css-3.svg",
               "https://cdn.worldvectorlogo.com/logos/javascript-1.svg",
             ]} 
-            />
+            /> */}
 
           </motion.div>
         </div>
