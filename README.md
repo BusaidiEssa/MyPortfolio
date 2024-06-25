@@ -1,1 +1,1 @@
-https://busaidiessa.netlify.app/projects
+https://busaidiessa.netlify.app/
