@@ -39,7 +39,7 @@ function Projects() {
               "https://cdn.worldvectorlogo.com/logos/firebase-1.svg",
             ]}/>
 
-            {<ProjectCard
+            <ProjectCard
               previewLink={"https://productpage-sbpt.onrender.com/"}
               githubLink={"https://github.com/BusaidiEssa/productpage"}
               projectName={"Product store"}
@@ -55,7 +55,7 @@ function Projects() {
                 "https://cdn.worldvectorlogo.com/logos/nodejs.svg",
               ]}
             />
-            /* <ProjectCard
+            {/* <ProjectCard
               previewLink={"https://glistening-shortbread-4a11c7.netlify.app/"}
               githubLink={
                 "https://github.com/shivam1611/static-marketing-agency-website-"
