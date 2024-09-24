@@ -52,7 +52,7 @@ function Projects() {
                 "https://cdn.worldvectorlogo.com/logos/mongodb-icon-1.svg",
                 "https://cdn.worldvectorlogo.com/logos/express-109.svg",
                 "https://cdn.worldvectorlogo.com/logos/react-2.svg",
-                "https://cdn.worldvectorlogo.com/logos/nodejs.svg",
+                "https://cdn.worldvectorlogo.com/logos/nodejs-2.svg",
               ]}
             />
             {/* <ProjectCard
