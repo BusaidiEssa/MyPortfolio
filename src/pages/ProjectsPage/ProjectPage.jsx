@@ -39,23 +39,23 @@ function Projects() {
               "https://cdn.worldvectorlogo.com/logos/firebase-1.svg",
             ]}/>
 
-            {/* <ProjectCard
-              previewLink={"https://teamtrackers.netlify.app/"}
-              githubLink={"https://github.com/shivam1611/Team-Trackr-app"}
-              projectName={"Team Trackr App"}
+            {<ProjectCard
+              previewLink={"https://productpage-sbpt.onrender.com/"}
+              githubLink={"https://github.com/BusaidiEssa/productpage"}
+              projectName={"Product store"}
               projectDetails={
-                "It is an Employee Data Management System in which we can store the data of the employee and acces the data of the employee"
+                "It is an Product Data Management System in which we can store the data of the products and use CRUD operations"
               }
               demoImage={teamtrackrIMG}
               key={"Team Trackr App"}
               skill_img={[
+                "https://cdn.worldvectorlogo.com/logos/mongodb-icon-1.svg",
+                "https://cdn.worldvectorlogo.com/logos/express-109.svg",
                 "https://cdn.worldvectorlogo.com/logos/react-2.svg",
-                "https://cdn.worldvectorlogo.com/logos/html-1.svg",
-                "https://cdn.worldvectorlogo.com/logos/css-3.svg",
-                "https://cdn.worldvectorlogo.com/logos/javascript-1.svg",
+                "https://cdn.worldvectorlogo.com/logos/nodejs.svg",
               ]}
             />
-            <ProjectCard
+            /* <ProjectCard
               previewLink={"https://glistening-shortbread-4a11c7.netlify.app/"}
               githubLink={
                 "https://github.com/shivam1611/static-marketing-agency-website-"
