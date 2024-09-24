@@ -26,7 +26,7 @@ function Projects() {
             transition={{ delay: ".5", duration: ".3", stiffness: "100" }}
             className={styles.projects_component}
           >
-            <ProjectCard previewLink={"https://movieeb.netlify.app/login"}
+            <ProjectCard previewLink={"https://movieeb.netlify.app/"}
             githubLink={"https://github.com/BusaidiEssa/NetflixClone"}
             projectName={"Netflix clone using React"}
             projectDetails={"Building a Netflix clone using TMDB API and firebase for user authentication and registration"}
