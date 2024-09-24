@@ -50,7 +50,7 @@ function Projects() {
               key={"Team Trackr App"}
               skill_img={[
                 "https://cdn.worldvectorlogo.com/logos/mongodb-icon-1.svg",
-                "https://cdn.worldvectorlogo.com/logos/express-109.svg",
+                "https://img.icons8.com/?size=100&id=kg46nzoJrmTR&format=png&color=000000",
                 "https://cdn.worldvectorlogo.com/logos/react-2.svg",
                 "https://cdn.worldvectorlogo.com/logos/nodejs-2.svg",
               ]}
