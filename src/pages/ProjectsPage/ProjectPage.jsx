@@ -46,7 +46,7 @@ function Projects() {
               projectDetails={
                 "It is an Product Data Management System in which we can store the data of the products and use CRUD operations"
               }
-              demoImage={teamtrackrIMG}
+              demoImage={productstore}
               key={"Team Trackr App"}
               skill_img={[
                 "https://cdn.worldvectorlogo.com/logos/mongodb-icon-1.svg",
