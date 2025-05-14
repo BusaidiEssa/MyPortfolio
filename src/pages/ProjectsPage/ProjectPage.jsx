@@ -6,6 +6,7 @@ import marketingIMG from "../../assets/marketingIMG.png";
 import travelHookIMG from "../../assets/travelhookIMG.png";
 import safecamIMG from '../../assets/safecamIMG.png'
 import quizIMG from '../../assets/quizIMG.png'
+import aiChatbotIMG from '../../assets/aiChatbot.png' // Add this import for your new project
 import { motion } from "framer-motion";
 import ComponentTitle from "../../Components/ComponentTitle/ComponentTitle";
 import Circle from '../../Components/Circle/Circle'
@@ -26,6 +27,25 @@ function Projects() {
             transition={{ delay: ".5", duration: ".3", stiffness: "100" }}
             className={styles.projects_component}
           >
+            {/* AI-Powered Chat App - NEW PROJECT */}
+            <ProjectCard 
+              previewLink={"https://ai-chatbot-frontend-lwk2.onrender.com"}
+              githubLink={"https://github.com/YourUsername/ai-powered-app"}
+              projectName={"AI-Powered Chat App 🤖"}
+              projectDetails={
+                "A full-stack AI chatbot application built with React (Vite) frontend and Node.js/Express backend with MongoDB and Hugging Face integration"
+              }
+              demoImage={aiChatbotIMG}
+              key={"AI Chat App"}
+              skill_img={[
+                "https://cdn.worldvectorlogo.com/logos/react-2.svg",
+                "https://cdn.worldvectorlogo.com/logos/nodejs-2.svg",
+                "https://cdn.worldvectorlogo.com/logos/mongodb-icon-1.svg",
+                "https://cdn.worldvectorlogo.com/logos/javascript-1.svg",
+                "https://upload.wikimedia.org/wikipedia/commons/1/10/Cib-next-js_%28CoreUI_Icons_v1.0.0%29.svg",
+              ]}
+            />
+
             <ProjectCard previewLink={"https://movieeb.netlify.app/"}
             githubLink={"https://github.com/BusaidiEssa/NetflixClone"}
             projectName={"Netflix clone using React"}
