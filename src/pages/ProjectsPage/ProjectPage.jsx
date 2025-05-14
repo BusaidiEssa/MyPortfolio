@@ -11,6 +11,7 @@ import ComponentTitle from "../../Components/ComponentTitle/ComponentTitle";
 import Circle from '../../Components/Circle/Circle'
 import MainContainer from "../../Components/MainContainer/MainContainer";
 import Netflixclone from "../../assets/Netflixclone.png"
+import AI_App from "../../assets/AI_App.png"
 
 function Projects() {
   return (
@@ -38,7 +39,7 @@ function Projects() {
               "https://cdn.worldvectorlogo.com/logos/javascript-1.svg",
               "https://cdn.worldvectorlogo.com/logos/firebase-1.svg",
             ]}/>
-
+            {/* 
             <ProjectCard
               previewLink={"https://productpage-sbpt.onrender.com/"}
               githubLink={"https://github.com/BusaidiEssa/productpage"}
@@ -54,7 +55,7 @@ function Projects() {
                 "https://cdn.worldvectorlogo.com/logos/react-2.svg",
                 "https://cdn.worldvectorlogo.com/logos/nodejs-2.svg",
               ]}
-            />
+            />*/}
             {<ProjectCard
               previewLink={"https://ai-chatbot-frontend-lwk2.onrender.com"}
               githubLink={
@@ -64,7 +65,7 @@ function Projects() {
               projectDetails={
                 "A fun and interactive full-stack AI chatbot application"
               }
-              demoImage={https://i.imgur.com/ZL11XMX.png}
+              demoImage={AI_App}
               key={"AI CHAT APP"}
               skill_img={[
                 "https://cdn.worldvectorlogo.com/logos/mongodb-icon-1.svg",
