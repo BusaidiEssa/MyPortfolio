@@ -65,7 +65,7 @@ function HomePage() {
             <a
               className="link_under_button"
               target="_blank"
-              href="https://drive.google.com/file/d/1vdpzaHK5VLBXj66p68yFAXXn16ig_nad/view?usp=sharing"
+              href="https://drive.google.com/file/d/1HJok8FGXa_sRfpWg4o8Osid3XkBhiVV9/view?usp=sharing"
             >
             
               Download CV
