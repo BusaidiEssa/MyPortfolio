@@ -39,23 +39,22 @@ function Projects() {
               "https://cdn.worldvectorlogo.com/logos/javascript-1.svg",
               "https://cdn.worldvectorlogo.com/logos/firebase-1.svg",
             ]}/>
-            {/* 
+            { 
             <ProjectCard
-              previewLink={"https://productpage-sbpt.onrender.com/"}
-              githubLink={"https://github.com/BusaidiEssa/productpage"}
-              projectName={"Product store"}
+              previewLink={"https://japanfoodsearch.netlify.app"}
+              githubLink={"https://github.com/BusaidiEssa/Japan-food-search.git"}
+              projectName={"Japenese Food Search"}
               projectDetails={
-                "It is an Product Data Management System in which we can store the data of the products and use CRUD operations"
+                "A simple web app to explore delicious Japanese cuisine using the TheMealDB API"
               }
               demoImage={productstore}
-              key={"Team Trackr App"}
+              key={"Japenese Food"}
               skill_img={[
-                "https://cdn.worldvectorlogo.com/logos/mongodb-icon-1.svg",
-                "https://img.icons8.com/?size=100&id=2ZOaTclOqD4q&format=png&color=000000",
-                "https://cdn.worldvectorlogo.com/logos/react-2.svg",
-                "https://cdn.worldvectorlogo.com/logos/nodejs-2.svg",
+                "https://cdn.worldvectorlogo.com/logos/html-1.svg",
+                "https://cdn.worldvectorlogo.com/logos/css-3.svg",
+                "https://cdn.worldvectorlogo.com/logos/javascript-1.svg",
               ]}
-            />*/}
+            />}
             {<ProjectCard
               previewLink={"https://ai-chatbot-frontend-lwk2.onrender.com"}
               githubLink={
