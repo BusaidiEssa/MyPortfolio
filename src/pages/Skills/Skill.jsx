@@ -45,7 +45,7 @@ function Skill() {
           />
           <SkillCard skill_name={"Python"} level={4} key={"Python"} />
           <SkillCard skill_name={"MySQL"} level={4} key={"MySQL"} />
-          <SkillCard skill_name={"C++"} level={4} key={"C++"} />
+          
         </motion.div>
       </MainContainer>
     </div>
